@@ -1,0 +1,31 @@
+body {
+	font-family: Lato, sans-serif;
+	}
+	
+.style {
+    overflow: hidden;
+    background: #fff;
+    padding-top: 149px;
+    line-height: 1.7em;
+    font-family: 'Open Sans', sans-serif;
+    padding: 149px 30px 20px;
+}	
+main.style h1, main.style h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: royalblue;
+}
+.style ul {
+    padding-left: 20px;
+}
+.style p{font-size: 13pt;
+			letter-spacing: 1px;}
+			
+.style img {width: 250px;
+				height: 200px;
+				float: left;
+				margin-right: 2em;}
+				
+.style blockquote {border-left: 2px;}
+	

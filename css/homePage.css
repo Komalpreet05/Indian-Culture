@@ -1,0 +1,299 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #e7e7e7;
+	color: gray;
+	font-family: Lato, sans-serif;
+}
+
+.wrapper {
+	width: 1170px;
+	margin: auto;
+}
+
+input.form-control-btn {
+	background: royalblue;
+	color: #fff;
+	border-radius: 5px;
+	padding: 11px 30px;
+	font-size: 23px;
+	cursor: pointer;
+	margin-left: 2.5em;
+}
+
+input.form-control-btn:hover {
+	background: blue;
+}
+
+.form-group label {
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 20px;
+	cursor: pointer;
+	display: block;
+	color: #898989;
+	font-family: Lato, sans-serif;
+	margin-bottom: 5px;
+	font-weight: bold;
+	margin-left: 3.7em;
+}
+
+.form-control {
+	background-color: #fff;
+	border: 2px solid #e7e7e7;
+	display: inline-block;
+	padding: 6px 6px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	color: #b0b0b0;
+	vertical-align: middle;
+	border-radius: 5px;
+	margin-left: 3.7em;
+	width: 90%;
+}
+
+.bannersection {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../image/p2.jpg);
+    height: 85vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    margin-top: 90px;
+}
+
+.logo img {
+	width: auto;
+	margin-top: 4px;
+	height: 70px;
+}
+
+header {
+	position: fixed;
+	width: 100% !important;
+	height: 90px;
+	z-index: 100001;
+	background: #fff;
+	box-shadow: rgba(0, 0, 0, .117647) 0 1px 3px;
+	border-bottom: 1.7px solid black;
+	-webkit-animation: mymove 5s infinite;
+	animation: mymove 5s infinite;
+	top: 0;}
+
+@-webkit-keyframes mymove {
+	50% {
+		border-bottom-color: lightblue;
+	}
+}
+
+@keyframes mymove {
+	50% {
+		border-bottom-color: lightblue;
+	}
+}
+
+.logo {
+	display: inline-block;
+	margin-top: 4px;
+}
+
+.nav-area {
+	float: right;
+	list-style-type: none;
+	margin-top: 0px;
+}
+
+.nav-area li {
+	display: inline-block;
+	height: 90px;
+	line-height: 90px;
+}
+
+.nav-area li a {
+	color: #000;
+	text-decoration: none;
+	padding: 5px 14px 8px;
+	font-size: 20px;
+	border-radius: 5px;
+}
+
+.nav-area li a.active {
+	background: #4169e1;
+	color: white;
+}
+
+.nav-area li a:hover {
+	background: black;
+	color: white;
+}
+
+.welcome-text {
+	position: absolute;
+	height: 300px;
+	margin: 16% 0%;
+	text-align: center;
+	width: 100%;
+}
+
+.welcome-text>h1 {
+	text-align: center;
+	color: #fff;
+	font-size: 60px;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px royalblue;
+}
+
+.welcome-text a {
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.welcome-text a:hover {
+	background: white;
+	color: black;
+}
+
+.one h2 {
+	font-size: 40px;
+	padding: 20px;
+	margin-left: 0.5em;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	color: royalblue;
+}
+
+.one img {
+	float: left;
+	margin-left: 3em;
+	margin-right: 1em;
+}
+
+.one {
+	margin: 20px auto;
+	width: 95%;
+	overflow: hidden;
+	background: #fff;
+	padding: 20px;
+}
+
+.p1 {
+	font-size: 35px;
+}
+
+.p1 figcaption {
+	float: right;
+	font-size: 25pt;
+	color: #4169e1;
+	font-style: italic;
+}
+
+.list {
+	font-size: 13pt;
+	margin-left: 3.5em;
+	padding: 15px;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+}
+
+.one h3 {
+	margin-left: 2em;
+	margin-bottom: 0.3em;
+	font-size: 20pt;
+}
+
+.p2 {
+	font-size: 25px;
+}
+
+#p3 {
+	margin-top: 8px;
+}
+
+#p3 a {
+	color: #017eba;
+	text-decoration: none;
+}
+
+#p4 {
+	margin-left: 3.5em;
+	font-style: italic;
+}
+
+#space {
+	margin-top: 2em;
+	padding-top: 40px;
+}
+
+iframe.video {
+	width: 95%;
+	height: 520px;
+	margin-left: 2.5%;
+}
+
+footer.footer {
+	background: #000;
+	padding: 30px 10% 0px;
+}
+
+.first.footercol {
+	width: 33.14%;
+	display: inline-block;
+	float: left;
+}
+
+.social img {
+	width: 48px;
+	padding-right: 10px;
+}
+
+.mainfoot {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+}
+
+.first.footercol h3 {
+	font-size: 32px;
+	color: #fff;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+ul.footlink {
+	padding-left: 10px;
+	list-style: none;
+}
+
+ul.footlink li,
+.first.footercol p {
+	padding: 0px;
+	font-size: 19px;
+	margin-bottom: 8px;
+	color: #fff;
+}
+
+ul.footlink li a {
+	color: #fff;
+}
+
+.copyfoot {
+	text-align: center;
+	padding: 15px;
+	border-top: 1px solid #fff;
+	margin-top: 10px;
+}
+
+.copyfoot p {
+	color: #fff;
+}
